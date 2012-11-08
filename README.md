@@ -1,6 +1,5 @@
-ealert
-======
-
 ealert jQuery alert plugin
+==========================
 
-+ info: http://ealert.ensegundoplano.com/
+ealert is a 4k jQuery plugin that attempts to replace javascript alert() native function
+more info: http://ealert.ensegundoplano.com/
