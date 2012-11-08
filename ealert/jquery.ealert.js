@@ -1,6 +1,6 @@
 /*
 
-ealert jQuery plugin
+ealert jQuery alert plugin v1.0
 
 Distributed under the MIT license:
 http://www.opensource.org/licenses/mit-license.php
