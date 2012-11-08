@@ -1,0 +1,188 @@
+/************************************************************************/
+/* RESET */
+/************************************************************************/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/************************************************************************/
+/* WEB */
+/************************************************************************/
+
+body{
+  padding: 20px 42px;
+  font-family: 'Lekton', sans-serif;
+  font-size: 13px;
+  background-color:#F9D052;
+}
+
+p{
+	line-height: 15px;
+	margin-bottom: 13px;
+}
+
+#page{
+	width: 540px;
+}
+	#page p a{
+		text-decoration: underline;
+		color:#000;
+	}
+	#page p a:hover{
+		text-decoration: none;
+		color:#999;
+	}
+
+h1{
+	font-size: 27px;
+	color: #f5f5f5;
+	font-family: sans-serif;
+	background-color:#333;
+	padding: 15px 10px;
+	display: inline-block;
+}
+
+.forkgithub { background-image:url(fork-me-github.png);
+			  width:149px;height:149px;
+			  position:fixed;top:0;right:0;
+			  font-size: 0;
+			  line-height: 0;
+}
+
+h2{
+ font-size: 20px;
+ margin-bottom: 5px;
+ margin-top: 27px;
+ color: #000;
+ display:block;
+ font-family: sans-serif;
+}
+
+table{
+	width:100%;
+	text-align: left;
+}
+	table tr th{
+		padding: 5px 5px 5px 5px;
+		background-color: #333;
+		color:#f5f5f5;
+	}
+
+	table tr td{
+		border: none;
+		border-bottom:1px solid #000;
+		padding: 13px 7px 13px 0;
+	}
+
+ul {
+	margin:0;
+	padding:0;
+	list-style-type:none;
+}
+	ul li a{
+		margin-bottom: 13px;
+
+		text-decoration: none;
+		background-color:#333;
+		color:#f5f5f5;
+		padding: 7px 5px 5px;
+		display: inline-block;
+
+	}
+	ul li a:hover{
+		background-color:#000;
+		color:#FFF;
+	}
+
+pre{
+	width: 100%;
+	font-family: Courier;
+	color:#333;
+	margin-bottom:20px;
+}
+
+/************************************************************************/
+/* MEDIA */
+/************************************************************************/
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+	body{
+		padding: 10px;
+	}
+
+	#page{
+		width:100%;
+	}
+
+	pre{
+		overflow: auto;
+		overflow-y: scroll;
+		overflow-x: scroll;
+	}
+		pre::-webkit-scrollbar {
+		background: transparent;
+		height: 5px;
+		overflow: visible;
+		width: 5px;
+		}
+		pre::-webkit-scrollbar-thumb {
+			background-color: rgba(0, 0, 0, 0.2);
+			-webkit-border-radius:5px;
+		}
+		pre::-webkit-scrollbar-thumb:hover{
+			background-color: rgba(0, 0, 0, 0.6);
+		}
+		pre::-webkit-scrollbar-corner {
+			background: transparent;
+		}
+
+	table {
+		font-size: 11px;
+	}
+
+	.forkgithub {
+		display:none;
+	}
+}

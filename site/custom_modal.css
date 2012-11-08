@@ -1,0 +1,48 @@
+
+/*******************
+/ custom window
+********************/
+
+.myCustomAlert {
+	width:550px;
+	padding: 20px;
+	background: #333;
+	box-shadow: 0px 0px 20px rgba( 0, 0, 0, 0.8);
+	border-radius: 1px;
+	margin-left: 30px;
+}
+
+/*******************
+/ custom content
+********************/
+
+.myCustomAlert div{
+	font-size: 18px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #f5f5f5;
+	margin-bottom: 30px;
+	text-align: left;
+}
+
+/*******************
+/ custom button
+********************/
+
+.myCustomAlert input[type="button"] {
+	border: 0px;
+	padding: 7px 8px;
+	margin: 5px 0px;
+	border-radius: 1px;
+	cursor: pointer;
+	color: #000;
+	background: #F9D052;
+	font-size: 14px;
+}
+/*********************
+/ custom button hover
+*********************/
+
+.myCustomAlert input[type="button"]:hover {
+	background: #fff;
+	color:#000;
+}
