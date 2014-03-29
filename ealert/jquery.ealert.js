@@ -6,7 +6,7 @@ Distributed under the MIT license:
 http://www.opensource.org/licenses/mit-license.php
 
 Copyright (c) Diego Vilariño:
-http://www.ensegundoplano.com/ - http://www.sond3.com
+http://www.dieg0v.com/ - http://www.sond3.com
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software
 and associated documentation files (the "Software"), to deal in the Software without restriction,
