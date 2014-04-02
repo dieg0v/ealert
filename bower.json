@@ -12,6 +12,9 @@
     "js",
     "alert"
   ],
+  "dependencies": {
+    "jquery": "1.11.0"
+  },
   "license": "MIT",
   "ignore": [
     ".gitignore"
